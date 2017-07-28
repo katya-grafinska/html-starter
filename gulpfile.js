@@ -35,7 +35,7 @@ gulp.task('scss', function() {
 		// .pipe(combineMq({
 		// 	beautify: true
 		// }))
-		// .pipe(cleanCSS({compatibility: 'ie10'}))
+		// .pipe(cleanCSS({compatibility: 'ie11'}))
 		.pipe(sourcemaps.write())
 		.pipe(gulp.dest('src/css'))
 		.pipe(browserSync.reload({ stream: true }))
@@ -56,7 +56,7 @@ gulp.task('libs-css', function() {
 			'src/libs/*.css'
 		])
 		.pipe(concat('libs.min.css'))
-		.pipe(cleanCSS({ compatibility: 'ie10' }))
+		.pipe(cleanCSS({ compatibility: 'ie11' }))
 		.pipe(gulp.dest('src/css'));
 });
 

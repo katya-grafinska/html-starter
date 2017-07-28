@@ -1,5 +1,5 @@
 {
-  "name": "In10City",
+  "name": "html-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/upqode/in10city-HTML.git"
+    "url": "https://github.com/katya-grafinska/html-starter"
   },
   "private": true,
   "devDependencies": {
