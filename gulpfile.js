@@ -60,7 +60,7 @@ gulp.task('libs-css', function() {
 		.pipe(gulp.dest('src/css'));
 });
 
-gulp.task('watch', ['scss', 'libs', 'browser-sync', 'libs-css'], function() {
+gulp.task('watch', ['scss', 'libs', 'nunjucks', 'browser-sync', 'libs-css'], function() {
 	gulp.watch('src/scss/**/*.scss', ['scss']);
 	gulp.watch('src/libs/**/*.js', ['libs']);
 	gulp.watch('src/libs/**/*.css', ['libs-css']);
